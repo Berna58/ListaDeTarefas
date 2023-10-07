@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+    <div class="content">
+        <div class="content-add-item">
+            <input type="text" id="input-new-task" placeholder="Escreve a tarefa nova">
+            <button onclick="newTask()" id="btn-new-task" title="Clica aqui para adicionar uma nova tarefa">
+                <i class="bi bi-plus-lg"></i>
+            </button>
+        </div>
+        <div class="content-body">
+            <ul id="to-do-list">
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
